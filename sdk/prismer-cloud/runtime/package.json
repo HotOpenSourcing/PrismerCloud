@@ -1,7 +1,7 @@
 {
   "name": "@prismer/runtime",
   "version": "2.0.8",
-  "description": "Prismer Cloud daemon runtime — TS-only adapter host for hosted IM agents",
+  "description": "Prismer Cloud daemon runtime \u2014 TS-only adapter host for hosted IM agents",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -28,7 +28,7 @@
   },
   "scripts": {
     "prebuild": "node scripts/prebuild-copy-built-in-skills.cjs",
-    "build": "tsup",
+    "build": "node init && tsup",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
