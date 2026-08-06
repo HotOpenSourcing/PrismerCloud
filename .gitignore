@@ -28,7 +28,6 @@ build/sync-server/
 
 # IDE
 .idea/
-.vscode/
 *.swp
 
 # OS
@@ -37,3 +36,4 @@ build/sync-server/
 # Local agent runtime / settings (not project state)
 .gstack/
 .claude/
+config.bat
